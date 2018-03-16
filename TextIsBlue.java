@@ -10,7 +10,7 @@ package mystatepattern;
  * @author arash
  */
 public class TextIsBlue implements IMessage{
-    private int distance;
+    private final int distance;
 
     public TextIsBlue(int distance) {
         this.distance = distance;
