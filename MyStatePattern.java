@@ -17,6 +17,8 @@ public class MyStatePattern {
     public static void main(String[] args) {
         int distance;
         TextColor txtColor= null;
+        System.out.println("Showing Blue if distance is < 6 and Blue otherwise and no change if color doesn't change:");
+        System.out.println("----------------------------------------------------------");
         for (int i=0; i<10; i++){
             distance = (int) (Math.random()*10);
             txtColor= new TextColor(distance);
